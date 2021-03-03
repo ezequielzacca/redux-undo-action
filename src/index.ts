@@ -1,9 +1,9 @@
 type Action = { type: string }
-let executedActions: Action[] = [];
-let initialState: any;
 const UNDO_ACTION_TYPE = 'UNDO'
 
 export const undoable = (rootReducer: any, bufferSize: number = 100) => {
+    let initialState: any;
+    let executedActions: Action[] = [];
     return (state: any, action: any) => {
         if (action.type === UNDO_ACTION_TYPE) {
             let newState: any = initialState;
