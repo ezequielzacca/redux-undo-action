@@ -9,9 +9,6 @@
     "strict": true,
     "target": "es2018",
     "esModuleInterop": true,
-    "emitDecoratorMetadata": true,
-    "types": ["reflect-metadata"],
-    "resolveJsonModule": true,
     "noImplicitAny": false,
     "sourceMap": true
   },
