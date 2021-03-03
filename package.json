@@ -1,0 +1,21 @@
+{
+  "name": "redux-undo-action",
+  "version": "0.0.1",
+  "author": "ezequielzacca",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.2.2"
+  },
+  "homepage": "https://github.com/ezequielzacca/redux-undo-action",
+  "license": "MIT",
+  "repository": "ezequielzacca/redux-undo-action",
+  "bugs": "https://github.com/ezequielzacca/redux-undo-action/issues",
+  "scripts": {
+    "prepack": "tsc -b"
+  },
+  "types": "lib/index.d.ts",
+  "main": "lib/index.js",
+  "publishConfig": {
+    "access": "public"
+  }
+}
